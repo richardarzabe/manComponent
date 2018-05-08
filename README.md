@@ -1,0 +1,3 @@
+# ionicManComponent
+
+Demo for developer 

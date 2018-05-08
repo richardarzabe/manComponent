@@ -1,0 +1,276 @@
+<div class="col-lg-6 col-md-6" style="position: relative; width: 350px; height: 450px;">
+    <div class="col-lg-6 col-md-6" style="position: absolute; left: 0px; top: 0px;">
+        <!--man-front
+          (valueUpdate)="valueUpdated($event)">
+        </man-front-->
+        <div style="width: 600px;">
+          <div class="divComponent">
+            <div class="counter">
+              <div class="BodyFront" id="bodyFront"></div>
+              <div class="GroinFrontColor noImage" id="image100"></div>
+              <div class="GroinFrontColor1" (click)="CommandNoImageClass(100,1);"></div>
+              <div class="ThighRightFrontColor noImage" id="image101"></div>
+              <div class="ThighRightFrontColor1" (click)="CommandNoImageClass(101,1);"></div>
+              <div class="ThighLeftFrontColor noImage" id="image102"></div>
+              <div class="ThighLeftFrontColor1" (click)="CommandNoImageClass(102,1);"></div>
+              <div class="AbdomenFrontColor noImage" id="image103"></div>
+              <div class="AbdomenFrontColor1" (click)="CommandNoImageClass(103,1);"></div>
+              <div class="ArmLeftFrontColor noImage" id="image104"></div>
+              <div class="ArmLeftFrontColor1" (click)="CommandNoImageClass(104,1);"></div>
+              <div class="ArmRightFrontColor noImage" id="image105"></div>
+              <div class="ArmRightFrontColor1" (click)="CommandNoImageClass(105,1);"></div>
+              <div class="ChestFrontColor noImage" id="image106"></div>
+              <div class="ChestFrontColor1" (click)="CommandNoImageClass(106,1);"></div>
+              <div class="FootLeftFrontColor noImage" id="image107"></div>
+              <div class="FootLeftFrontColor1" (click)="CommandNoImageClass(107,1);"></div>
+              <div class="FootRightFrontColor noImage" id="image108"></div>
+              <div class="FootRightFrontColor1" (click)="CommandNoImageClass(108,1);"></div>
+              <div class="ForearmLeftFrontColor noImage" id="image109"></div>
+              <div class="ForearmLeftFrontColor1" (click)="CommandNoImageClass(109,1);"></div>
+              <div class="ForearmRightFrontColor noImage" id="image110"></div>
+              <div class="ForearmRightFrontColor1" (click)="CommandNoImageClass(110,1);"></div>
+              <div class="HandLeftFrontColor noImage" id="image111"></div>
+              <div class="HandLeftFrontColor1" (click)="CommandNoImageClass(111,1);"></div>
+              <div class="HandRightFrontColor noImage" id="image112"></div>
+              <div class="HandRightFrontColor1" (click)="CommandNoImageClass(112,1);"></div>
+              <div class="HeadFrontColor noImage" id="image113"></div>
+              <div class="HeadFrontColor1" (click)="CommandNoImageClass(113,1);"></div>
+              <div class="NeckFrontColor noImage" id="image114"></div>
+              <div class="NeckFrontColor1" (click)="CommandNoImageClass(114,1);"></div>
+              <div class="LegbobLeftFrontColor noImage" id="image115"></div>
+              <div class="LegbobLeftFrontColor1" (click)="CommandNoImageClass(115,1);"></div>
+              <div class="LegbobRightFrontColor noImage" id="image116"></div>
+              <div class="LegbobRightFrontColor1" (click)="CommandNoImageClass(116,1);"></div>
+              <input type="hidden" id="changeBodyPart" value="0"/>
+            </div>
+        
+            <button ion-button (click)="GoToBackBody()" id="boton"> Go To Back of the Body</button>
+          </div>
+          <div class="divButtons">
+            <div style="height: 160px;"></div>
+            <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+            <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+          </div>
+        </div>
+    </div>
+<div id="chargeBodyPart" class="col-lg-6 col-md-6" style="position: absolute; left: 0px; top: 0px; z-index: 1000; background-color: white;">
+    <div id="componentBody0" class="hiddenImage">
+      <div style="width: 600px;">
+        <div class="divComponent">
+          <div class="counter">
+            <div class="BodyBehind" id="bodyBehind"></div>
+            <div class="ButtocksBehindColor noImage" id="image200"></div>
+            <div class="ButtocksBehindColor1" (click)="CommandNoImageClass(200,2);"></div>
+            <div class="ThighLeftBehindColor noImage" id="image201"></div>
+            <div class="ThighLeftBehindColor1" (click)="CommandNoImageClass(201,2);"></div>
+            <div class="ThighRightBehindColor noImage" id="image202"></div>
+            <div class="ThighRightBehindColor1" (click)="CommandNoImageClass(202,2);"></div>
+            <div class="ArmLeftBehindColor noImage" id="image203"></div>
+            <div class="ArmLeftBehindColor1" (click)="CommandNoImageClass(203,2);"></div>
+            <div class="ArmRightBehindColor noImage" id="image204"></div>
+            <div class="ArmRightBehindColor1" (click)="CommandNoImageClass(204,2);"></div>
+            <div class="ColumnBehindColor noImage" id="image205"></div>
+            <div class="ColumnBehindColor1" (click)="CommandNoImageClass(205,2);"></div>
+            <div class="FootLeftBehindColor noImage" id="image206"></div>
+            <div class="FootLeftBehindColor1" (click)="CommandNoImageClass(206,2);"></div>
+            <div class="FootRightBehindColor noImage" id="image207"></div>
+            <div class="FootRightBehindColor1" (click)="CommandNoImageClass(207,2);"></div>
+            <div class="ForearmLeftBehindColor noImage" id="image208"></div>
+            <div class="ForearmLeftBehindColor1" (click)="CommandNoImageClass(208,2);"></div>
+            <div class="ForearmRightBehindColor noImage" id="image209"></div>
+            <div class="ForearmRightBehindColor1" (click)="CommandNoImageClass(209,2);"></div>
+            <div class="HandLeftBehindColor noImage" id="image210"></div>
+            <div class="HandLeftBehindColor1" (click)="CommandNoImageClass(210,2);"></div>
+            <div class="HandRightBehindColor noImage" id="image211"></div>
+            <div class="HandRightBehindColor1" (click)="CommandNoImageClass(211,2);"></div>
+            <div class="HeadBehindColor noImage" id="image212"></div>
+            <div class="HeadBehindColor1" (click)="CommandNoImageClass(212,2);"></div>
+            <div class="LegbobLeftBehindColor noImage" id="image213"></div>
+            <div class="LegbobLeftBehindColor1" (click)="CommandNoImageClass(213,2);"></div>
+            <div class="LegbobRightBehindColor noImage" id="image214"></div>
+            <div class="LegbobRightBehindColor1" (click)="CommandNoImageClass(214,2);"></div>
+            <div class="LowerbackBehindColor noImage" id="image215"></div>
+            <div class="LowerbackBehindColor1" (click)="CommandNoImageClass(215,2);"></div>
+            <div class="ShouldersBehindColor noImage" id="image216"></div>
+            <div class="ShouldersBehindColor1" (click)="CommandNoImageClass(216,2);"></div>
+            <input type="hidden" id="changeBodyBehindPart" value="0"/>
+          </div>
+      
+          <button ion-button (click)="GoBack(0)" id="boton"> Go To Front Body</button>
+        </div>  
+        <div class="divButtons">
+          <div style="height: 160px;"></div>
+          <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+          <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+        </div> 
+      </div>
+      
+    </div>
+    <div id="componentBody113" class="hiddenImage">
+      <div style="width: 600px;">
+        <div class="divComponent">
+          <div class="counter">
+            <div class="Torso" id="Torso"></div>
+            <div class="FaceColor noImage" id="image70"></div>
+            <div class="FaceColor1" (click)="CommandNoImageClass(70,7);"></div>
+            <div class="SkullColor noImage" id="image71"></div>
+            <div class="SkullColor1" (click)="CommandNoImageClass(71,7);"></div>
+            <div class="ForeheadColor noImage" id="image72"></div>
+            <div class="ForeheadColor1" (click)="CommandNoImageClass(72,7);"></div>
+            <div class="JawColor noImage" id="image73"></div>
+            <div class="JawColor1" (click)="CommandNoImageClass(73,7);"></div>
+            <div class="LipsColor noImage" id="image74"></div>
+            <div class="LipsColor1" (click)="CommandNoImageClass(74,7);"></div>
+            <div class="NoseColor noImage" id="image75"></div>
+            <div class="NoseColor1" (click)="CommandNoImageClass(75,7);"></div>
+            <div class="TongueColor noImage" id="image76"></div>
+            <div class="TongueColor1" (click)="CommandNoImageClass(76,7);"></div>
+            <div class="CheeksRightColor noImage" id="image771"></div>
+            <div class="CheeksColor1" (click)="CommandNoImageClass(771,7);"></div>
+            <div class="CheeksLeftColor noImage" id="image772"></div>
+            <div class="CheeksColor2" (click)="CommandNoImageClass(772,7);"></div>
+            <div class="EarsRightColor noImage" id="image781"></div>
+            <div class="EarsColor1" (click)="CommandNoImageClass(781,7);"></div>
+            <div class="EarsLeftColor noImage" id="image782"></div>
+            <div class="EarsColor2" (click)="CommandNoImageClass(782,7);"></div>
+            <div class="EyesRightColor noImage" id="image791"></div>
+            <div class="EyesColor1" (click)="CommandNoImageClass(791,7);"></div>
+            <div class="EyesLeftColor noImage" id="image792"></div>
+            <div class="EyesColor2" (click)="CommandNoImageClass(792,7);"></div>
+            <input type="hidden" id="changeTorsoPart" value="0"/>
+          </div>
+          
+          <button ion-button (click)="GoBack(113)" id="boton"> Go Back</button>
+        </div>  
+        <div class="divButtons">
+          <div style="height: 160px;"></div>
+          <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+          <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+        </div> 
+      </div>
+    </div>
+    <div id="componentBody111" class="hiddenImage">
+      <div style="width: 600px;">
+        <div class="divComponent">
+          <div class="counter">
+            <div class="HandLeft" id="handLeft"></div>
+            <div class="BackHandLeftColor noImage" id="image50"></div>
+            <div class="BackHandLeftColor1" (click)="CommandNoImageClass(50,5);"></div>
+            <div class="ThumbHandLeftColor noImage" id="image51"></div>
+            <div class="ThumbHandLeftColor1" (click)="CommandNoImageClass(51,5);"></div>
+            <div class="IndexHandLeftColor noImage" id="image52"></div>
+            <div class="IndexHandLeftColor1" (click)="CommandNoImageClass(52,5);"></div>
+            <div class="MiddleHandLeftColor noImage" id="image53"></div>
+            <div class="MiddleHandLeftColor1" (click)="CommandNoImageClass(53,5);"></div>
+            <div class="AnnularHandLeftColor noImage" id="image54"></div>
+            <div class="AnnularHandLeftColor1" (click)="CommandNoImageClass(54,5);"></div>
+            <div class="LittleHandLeftColor noImage" id="image55"></div>
+            <div class="LittleHandLeftColor1" (click)="CommandNoImageClass(55,5);"></div>
+            <input type="hidden" id="changeHandLeftPart" value="0"/>
+          </div>
+        
+          <button ion-button (click)="GoBack(111)" id="boton"> Go Back</button>
+        </div>  
+        <div class="divButtons">
+          <div style="height: 160px;"></div>
+          <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+          <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+        </div> 
+      </div>
+    </div>
+
+    <div id="componentBody112" class="hiddenImage">
+      <div style="width: 600px;">
+        <div class="divComponent">
+          <div class="counter">
+            <div class="HandRight" id="handRight"></div>
+            <div class="BackHandRightColor noImage" id="image60"></div>
+            <div class="BackHandRightColor1" (click)="CommandNoImageClass(60,6);"></div>
+            <div class="ThumbHandRightColor noImage" id="image61"></div>
+            <div class="ThumbHandRightColor1" (click)="CommandNoImageClass(61,6);"></div>
+            <div class="IndexHandRightColor noImage" id="image62"></div>
+            <div class="IndexHandRightColor1" (click)="CommandNoImageClass(62,6);"></div>
+            <div class="MiddleHandRightColor noImage" id="image63"></div>
+            <div class="MiddleHandRightColor1" (click)="CommandNoImageClass(63,6);"></div>
+            <div class="AnnularHandRightColor noImage" id="image64"></div>
+            <div class="AnnularHandRightColor1" (click)="CommandNoImageClass(64,6);"></div>
+            <div class="LittleHandRightColor noImage" id="image65"></div>
+            <div class="LittleHandRightColor1" (click)="CommandNoImageClass(65,6);"></div>
+            <input type="hidden" id="changeHandRightPart" value="0"/>
+          </div>
+        
+          <button ion-button (click)="GoBack(112)" id="boton"> Go Back</button>
+        </div>  
+        <div class="divButtons">
+          <div style="height: 160px;"></div>
+          <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+          <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="componentBody107" class="hiddenImage">
+      <div style="width: 600px;">
+        <div class="divComponent">
+          <div class="counter">
+            <div class="FootLeft" id="footLeft"></div>
+            <div class="BackFootLeftColor noImage" id="image30"></div>
+            <div class="BackFootLeftColor1" (click)="CommandNoImageClass(30,3);"></div>
+            <div class="FattoeFootLeftColor noImage" id="image31"></div>
+            <div class="FattoeFootLeftColor1" (click)="CommandNoImageClass(31,3);"></div>
+            <div class="FirsttoeFootLeftColor noImage" id="image32"></div>
+            <div class="FirsttoeFootLeftColor1" (click)="CommandNoImageClass(32,3);"></div>
+            <div class="SecondtoeFootLeftColor noImage" id="image33"></div>
+            <div class="SecondtoeFootLeftColor1" (click)="CommandNoImageClass(33,3);"></div>
+            <div class="ThirdtoeFootLeftColor noImage" id="image34"></div>
+            <div class="ThirdtoeFootLeftColor1" (click)="CommandNoImageClass(34,3);"></div>
+            <div class="FourthtoeFootLeftColor noImage" id="image35"></div>
+            <div class="FourthtoeFootLeftColor1" (click)="CommandNoImageClass(35,3);"></div>
+            <input type="hidden" id="changeFootLeftPart" value="0"/>
+          </div>
+        
+          <button ion-button (click)="GoBack(107)" id="boton"> Go Back</button>
+        </div>  
+        <div class="divButtons">
+          <div style="height: 160px;"></div>
+          <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+          <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+        </div> 
+      </div>
+    </div>
+
+    <div id="componentBody108" class="hiddenImage">
+      <div style="width: 600px;">
+        <div class="divComponent">
+          <div class="counter">
+            <div class="FootRight" id="footRight"></div>
+            <div class="BackFootRightColor noImage" id="image40"></div>
+            <div class="BackFootRightColor1" (click)="CommandNoImageClass(40,4);"></div>
+            <div class="FattoeFootRightColor noImage" id="image41"></div>
+            <div class="FattoeFootRightColor1" (click)="CommandNoImageClass(41,4);"></div>
+            <div class="FirsttoeFootRightColor noImage" id="image42"></div>
+            <div class="FirsttoeFootRightColor1" (click)="CommandNoImageClass(42,4);"></div>
+            <div class="SecondtoeFootRightColor noImage" id="image43"></div>
+            <div class="SecondtoeFootRightColor1" (click)="CommandNoImageClass(43,4);"></div>
+            <div class="ThirdtoeFootRightColor noImage" id="image44"></div>
+            <div class="ThirdtoeFootRightColor1" (click)="CommandNoImageClass(44,4);"></div>
+            <div class="FourthtoeFootRightColor noImage" id="image45"></div>
+            <div class="FourthtoeFootRightColor1" (click)="CommandNoImageClass(45,4);"></div>
+            <input type="hidden" id="changeFootRightPart" value="0"/>
+          </div>
+        
+          <button ion-button (click)="GoBack(108)" id="boton"> Go Back</button>
+        </div>  
+        <div class="divButtons">
+          <div style="height: 160px;"></div>
+          <div><button ion-button (click)="ChangeToBlue()" id="boton">Complete</button></div>
+          <div><button ion-button (click)="ChangeToRed()" id="boton">Incomplete</button></div>
+        </div> 
+      </div>
+    </div>
+
+  </div>
+  
+
+
+</div>

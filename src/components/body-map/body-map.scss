@@ -1,0 +1,1692 @@
+body-map {
+    $width: 300px;
+    $height: 400px;  
+    
+    .divComponent, .divButtons {
+      float: left;
+    }
+  
+    .counter {
+      width: $width;
+      height: $height;
+      position: relative;
+      // display: inline-table;
+    }
+    /*css man front*/
+    .BodyFront {
+      background-image: url("../assets/imgs/Man/BodyFront/BodyFront.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/BodyFront.png');
+      z-index: 200;
+    }
+  
+    .GroinFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/GroinFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/GroinFrontColorRed.png');
+      z-index: 201;
+    }
+  
+    .GroinFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/GroinFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/GroinFrontColorBlue.png');
+    }
+  
+    .GroinFrontColor1 {
+      width: 60px;
+      height: 45px;
+      position: absolute;
+      left: 116px;
+      top: 170px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ThighRightFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ThighRightFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ThighRightFrontColorRed.png');
+      z-index: 202;
+    }
+  
+    .ThighRightFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ThighRightFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ThighRightFrontColorBlue.png');
+    }
+  
+    .ThighRightFrontColor1 {
+      width: 32px;
+      height: 75px;
+      position: absolute;
+      left: 113px;
+      top: 208px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ThighLeftFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ThighLeftFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ThighLeftFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .ThighLeftFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ThighLeftFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ThighLeftFrontColorBlue.png');
+    }
+  
+    .ThighLeftFrontColor1 {
+      width: 29px;
+      height: 75px;
+      position: absolute;
+      left: 149px;
+      top: 208px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .AbdomenFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/AbdomenFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/AbdomenFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .AbdomenFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/AbdomenFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/AbdomenFrontColorBlue.png');
+    }
+  
+    .AbdomenFrontColor1 {
+      width: 52px;
+      height: 40px;
+      position: absolute;
+      left: 120px;
+      top: 145px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ArmLeftFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ArmLeftFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ArmLeftFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .ArmLeftFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ArmLeftFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ArmLeftFrontColorBlue.png');
+    }
+  
+    .ArmLeftFrontColor1 {
+      width: 17px;
+      height: 50px;
+      position: absolute;
+      left: 175px;
+      top: 95px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ArmRightFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ArmRightFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ArmRightFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .ArmRightFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ArmRightFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ArmRightFrontColorBlue.png');
+    }
+  
+    .ArmRightFrontColor1 {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 98px;
+      top: 95px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ChestFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ChestFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ChestFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .ChestFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ChestFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ChestFrontColorBlue.png');
+    }
+  
+    .ChestFrontColor1 {
+      width: 55px;
+      height: 67px;
+      position: absolute;
+      left: 119px;
+      top: 85px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .FootLeftFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/FootLeftFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/FootLeftFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .FootLeftFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/FootLeftFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/FootLeftFrontColorBlue.png');
+    }
+  
+    .FootLeftFrontColor1 {
+      width: 23px;
+      height: 27px;
+      position: absolute;
+      left: 160px;
+      top: 350px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .FootRightFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/FootRightFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/FootRightFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .FootRightFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/FootRightFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/FootRightFrontColorBlue.png');
+    }
+  
+    .FootRightFrontColor1 {
+      width: 24px;
+      height: 26px;
+      position: absolute;
+      left: 109px;
+      top: 350px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ForearmLeftFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ForearmLeftFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ForearmLeftFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .ForearmLeftFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ForearmLeftFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ForearmLeftFrontColorBlue.png');
+    }
+  
+    .ForearmLeftFrontColor1 {
+      width: 20px;
+      height: 46px;
+      position: absolute;
+      left: 182px;
+      top: 150px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ForearmRightFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/ForearmRightFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ForearmRightFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .ForearmRightFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/ForearmRightFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/ForearmRightFrontColorBlue.png');
+    }
+  
+    .ForearmRightFrontColor1 {
+      width: 20px;
+      height: 46px;
+      position: absolute;
+      left: 90px;
+      top: 148px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .HandLeftFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/HandLeftFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/HandLeftFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .HandLeftFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/HandLeftFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/HandLeftFrontColorBlue.png');
+    }
+  
+    .HandLeftFrontColor1 {
+      width: 16px;
+      height: 43px;
+      position: absolute;
+      left: 188px;
+      top: 190px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .HandRightFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/HandRightFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/HandRightFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .HandRightFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/HandRightFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/HandRightFrontColorBlue.png');
+    }
+  
+    .HandRightFrontColor1 {
+      width: 16px;
+      height: 43px;
+      position: absolute;
+      left: 87px;
+      top: 190px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .HeadFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/HeadFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/HeadFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .HeadFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/HeadFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/HeadFrontColorBlue.png');
+    }
+  
+    .HeadFrontColor1 {
+      width: 33px;
+      height: 45px;
+      position: absolute;
+      left: 130px;
+      top: 33px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .NeckFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/NeckFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/NeckFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .NeckFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/NeckFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/NeckFrontColorBlue.png');
+    }
+  
+    .NeckFrontColor1 {
+      width: 22px;
+      height: 25px;
+      position: absolute;
+      left: 135px;
+      top: 68px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .LegbobLeftFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/LegbobLeftFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/LegbobLeftFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .LegbobLeftFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/LegbobLeftFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/LegbobLeftFrontColorBlue.png');
+    }
+  
+    .LegbobLeftFrontColor1 {
+      width: 23px;
+      height: 77px;
+      position: absolute;
+      left: 155px;
+      top: 280px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .LegbobRightFrontColor {
+      background-image: url("../assets/imgs/Man/BodyFront/LegbobRightFrontColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/LegbobRightFrontColorRed.png');
+      z-index: 203;
+    }
+  
+    .LegbobRightFrontColorBlue {
+      background-image: url("../assets/imgs/Man/BodyFront/LegbobRightFrontColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyFront/LegbobRightFrontColorBlue.png');
+    }
+  
+    .LegbobRightFrontColor1 {
+      width: 23px;
+      height: 77px;
+      position: absolute;
+      left: 114px;
+      top: 280px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .BodyFront, .GroinFrontColor, .ThighRightFrontColor, .ThighLeftFrontColor, .AbdomenFrontColor, .ArmLeftFrontColor, .ArmRightFrontColor, .ChestFrontColor, .FootLeftFrontColor, .FootRightFrontColor, .ForearmLeftFrontColor, .ForearmRightFrontColor, .HandLeftFrontColor, .HandRightFrontColor, .HeadFrontColor, .NeckFrontColor, .LegbobLeftFrontColor, .LegbobRightFrontColor {
+      width: $width;
+      height: $height;
+      background-size: 300px 400px;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+    }
+    /*end css man front*/
+    
+    /*css man behind*/
+    .BodyBehind {
+      background-image: url("../assets/imgs/Man/BodyBehind/BodyBehind.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/BodyBehind.png');
+      z-index: 200;
+    }
+  
+    .ButtocksBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ButtocksBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ButtocksBehindColorRed.png');
+      z-index: 201;
+    }
+  
+    .ButtocksBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ButtocksBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ButtocksBehindColorBlue.png');
+    }
+    
+    .ButtocksBehindColor1 {
+      width: 60px;
+      height: 45px;
+      position: absolute;
+      left: 116px;
+      top: 170px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ThighLeftBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ThighLeftBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ThighLeftBehindColorRed.png');
+      z-index: 202;
+    }
+  
+    .ThighLeftBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ThighLeftBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ThighLeftBehindColorBlue.png');
+    }
+    
+    .ThighLeftBehindColor1 {
+      width: 32px;
+      height: 75px;
+      position: absolute;
+      left: 113px;
+      top: 208px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ThighRightBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ThighRightBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ThighRightBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .ThighRightBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ThighRightBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ThighRightBehindColorBlue.png');
+    }
+    
+    .ThighRightBehindColor1 {
+      width: 29px;
+      height: 75px;
+      position: absolute;
+      left: 149px;
+      top: 208px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+    
+    .ArmLeftBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ArmLeftBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ArmLeftBehindColorRed.png');
+      z-index: 203;
+    }
+    
+    .ArmLeftBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ArmLeftBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ArmLeftBehindColorBlue.png');
+    }
+    
+    .ArmLeftBehindColor1 {
+      width: 20px;
+      height: 65px;
+      position: absolute;
+      left: 98px;
+      top: 90px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ArmRightBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ArmRightBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ArmRightBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .ArmRightBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ArmRightBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ArmRightBehindColorBlue.png');
+    }
+    
+    .ArmRightBehindColor1 {
+      width: 25px;
+      height: 60px;
+      position: absolute;
+      left: 173px;
+      top: 100px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+    
+    .ColumnBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ColumnBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ColumnBehindColorRed.png');
+      z-index: 203;
+    }
+    
+    .ColumnBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ColumnBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ColumnBehindColorBlue.png');
+    }
+    
+    .ColumnBehindColor1 {
+      width: 53px;
+      height: 55px;
+      position: absolute;
+      left: 120px;
+      top: 100px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .FootLeftBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/FootLeftBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/FootLeftBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .FootLeftBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/FootLeftBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/FootLeftBehindColorBlue.png');
+    }
+    
+    .FootLeftBehindColor1 {
+      width: 20px;
+      height: 27px;
+      position: absolute;
+      left: 111px;
+      top: 345px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .FootRightBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/FootRightBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/FootRightBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .FootRightBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/FootRightBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/FootRightBehindColorBlue.png');
+    }
+    
+    .FootRightBehindColor1 {
+      width: 21px;
+      height: 27px;
+      position: absolute;
+      left: 161px;
+      top: 345px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ForearmLeftBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ForearmLeftBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ForearmLeftBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .ForearmLeftBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ForearmLeftBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ForearmLeftBehindColorBlue.png');
+    }
+    
+    .ForearmLeftBehindColor1 {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 90px;
+      top: 145px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .ForearmRightBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ForearmRightBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ForearmRightBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .ForearmRightBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ForearmRightBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ForearmRightBehindColorBlue.png');
+    }
+    
+    .ForearmRightBehindColor1 {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 183px;
+      top: 145px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .HandLeftBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/HandLeftBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/HandLeftBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .HandLeftBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/HandLeftBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/HandLeftBehindColorBlue.png');
+    }
+    
+    .HandLeftBehindColor1 {
+      width: 15px;
+      height: 44px;
+      position: absolute;
+      left: 88px;
+      top: 190px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .HandRightBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/HandRightBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/HandRightBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .HandRightBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/HandRightBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/HandRightBehindColorBlue.png');
+    }
+    
+    .HandRightBehindColor1 {
+      width: 15px;
+      height: 42px;
+      position: absolute;
+      left: 190px;
+      top: 190px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+    
+    .HeadBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/HeadBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/HeadBehindColorRed.png');
+      z-index: 203;
+    }
+    
+    .HeadBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/HeadBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/HeadBehindColorBlue.png');
+    }
+    
+    .HeadBehindColor1 {
+      width: 33px;
+      height: 33px;
+      position: absolute;
+      left: 130px;
+      top: 34px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .LegbobLeftBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/LegbobLeftBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/LegbobLeftBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .LegbobLeftBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/LegbobLeftBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/LegbobLeftBehindColorBlue.png');
+    }
+    
+    .LegbobLeftBehindColor1 {
+      width: 22px;
+      height: 73px;
+      position: absolute;
+      left: 115px;
+      top: 285px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .LegbobRightBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/LegbobRightBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/LegbobRightBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .LegbobRightBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/LegbobRightBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/LegbobRightBehindColorBlue.png');
+    }
+    
+    .LegbobRightBehindColor1 {
+      width: 22px;
+      height: 73px;
+      position: absolute;
+      left: 156px;
+      top: 285px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .LowerbackBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/LowerbackBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/LowerbackBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .LowerbackBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/LowerbackBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/LowerbackBehindColorBlue.png');
+    }
+    
+    .LowerbackBehindColor1 {
+      width: 53px;
+      height: 48px;
+      position: absolute;
+      left: 120px;
+      top: 140px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+    
+    .ShouldersBehindColor {
+      background-image: url("../assets/imgs/Man/BodyBehind/ShouldersBehindColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ShouldersBehindColorRed.png');
+      z-index: 203;
+    }
+  
+    .ShouldersBehindColorBlue {
+      background-image: url("../assets/imgs/Man/BodyBehind/ShouldersBehindColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/BodyBehind/ShouldersBehindColorBlue.png');
+    }
+    
+    .ShouldersBehindColor1 {
+      width: 83px;
+      height: 30px;
+      position: absolute;
+      left: 105px;
+      top: 80px !important;
+      cursor: pointer;
+      z-index: 300;
+    }
+  
+    .BodyBehind, .ButtocksBehindColor, .ThighLeftBehindColor, .ThighRightBehindColor, .ArmLeftBehindColor, .ArmRightBehindColor, .ColumnBehindColor, .FootLeftBehindColor, .FootRightBehindColor, .ForearmLeftBehindColor, .ForearmRightBehindColor, .HandLeftBehindColor, .HandRightBehindColor, .HeadBehindColor, .LegbobLeftBehindColor, .LegbobRightBehindColor, .LowerbackBehindColor, .ShouldersBehindColor {
+      width: $width;
+      height: $height;
+      background-size: 300px 400px;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+    }
+    /*End css man behind*/
+    /*css torso*/
+    .Torso {
+      background-image: url("../assets/imgs/Man/Torso/Torso.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/Torso.png');
+      z-index: 1200;
+  }
+  
+  .FaceColor {
+      background-image: url("../assets/imgs/Man/Torso/FaceColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/FaceColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FaceColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/FaceColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/FaceColorBlue.png');
+  }
+  
+  .FaceColor1 {
+      width: 130px;
+      height: 223px;
+      position: absolute;
+      left: 75px;
+      top: 57px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .SkullColor {
+      background-image: url("../assets/imgs/Man/Torso/SkullColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/SkullColorRed.png');
+      z-index: 1201;
+  }
+  
+  .SkullColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/SkullColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/SkullColorBlue.png');
+  }
+  
+  .SkullColor1 {
+      width: 133px;
+      height: 95px;
+      position: absolute;
+      left: 73px;
+      top: 57px !important;
+      cursor: pointer;
+      z-index: 1303;
+  }
+  
+  .ForeheadColor {
+      background-image: url("../assets/imgs/Man/Torso/ForeheadColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/ForeheadColorRed.png');
+      z-index: 1201;
+  }
+  
+  .ForeheadColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/ForeheadColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/ForeheadColorBlue.png');
+  }
+  
+  .ForeheadColor1 {
+      width: 110px;
+      height: 50px;
+      position: absolute;
+      left: 85px;
+      top: 95px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .JawColor {
+      background-image: url("../assets/imgs/Man/Torso/JawColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/JawColorRed.png');
+      z-index: 1201;
+  }
+  
+  .JawColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/JawColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/JawColorBlue.png');
+  }
+  
+  .JawColor1 {
+      width: 90px;
+      height: 40px;
+      position: absolute;
+      left: 95px;
+      top: 240px !important;
+      cursor: pointer;
+      z-index: 1303;
+  }
+  
+  .LipsColor {
+      background-image: url("../assets/imgs/Man/Torso/LipsColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/LipsColorRed.png');
+      z-index: 1201;
+  }
+  
+  .LipsColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/LipsColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/LipsColorBlue.png');
+  }
+  
+  .LipsColor1 {
+      width: 50px;
+      height: 40px;
+      position: absolute;
+      left: 115px;
+      top: 218px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .NoseColor {
+      background-image: url("../assets/imgs/Man/Torso/NoseColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/NoseColorRed.png');
+      z-index: 1201;
+  }
+  
+  .NoseColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/NoseColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/NoseColorBlue.png');
+  }
+  
+  .NoseColor1 {
+      width: 30px;
+      height: 50px;
+      position: absolute;
+      left: 125px;
+      top: 155px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .TongueColor {
+      background-image: url("../assets/imgs/Man/Torso/TongueColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/TongueColorRed.png');
+      z-index: 1201;
+  }
+  
+  .TongueColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/TongueColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/TongueColorBlue.png');
+  }
+  
+  .TongueColor1 {
+      width: 36px;
+      height: 20px;
+      position: absolute;
+      left: 122px;
+      top: 225px !important;
+      cursor: pointer;
+      z-index: 1306;
+  }
+  
+  .CheeksColor {
+      background-image: url("../assets/imgs/Man/Torso/CheeksColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/CheeksColorRed.png');
+      z-index: 1201;
+  }
+  
+  .CheeksColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/CheeksColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/CheeksColorBlue.png');
+  }
+  
+  .CheeksRightColor {
+      background-image: url("../assets/imgs/Man/Torso/CheeksRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/CheeksRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .CheeksRightColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/CheeksRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/CheeksRightColorBlue.png');
+  }
+  
+  .CheeksLeftColor {
+      background-image: url("../assets/imgs/Man/Torso/CheeksLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/CheeksLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .CheeksLeftColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/CheeksLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/CheeksLeftColorBlue.png');
+  }
+  
+  .CheeksColor1 {
+      width: 33px;
+      height: 60px;
+      position: absolute;
+      left: 85px;
+      top: 175px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .CheeksColor2 {
+      width: 33px;
+      height: 60px;
+      position: absolute;
+      left: 162px;
+      top: 175px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .EarsColor {
+      background-image: url("../assets/imgs/Man/Torso/EarsColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EarsColorRed.png');
+      z-index: 1201;
+  }
+  
+  .EarsColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/EarsColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EarsColorBlue.png');
+  }
+  
+  .EarsRightColor {
+      background-image: url("../assets/imgs/Man/Torso/EarsRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EarsRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .EarsRightColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/EarsRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EarsRightColorBlue.png');
+  }
+  
+  .EarsLeftColor {
+      background-image: url("../assets/imgs/Man/Torso/EarsLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EarsLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .EarsLeftColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/EarsLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EarsLeftColorBlue.png');
+  }
+  
+  .EarsColor1 {
+      width: 15px;
+      height: 50px;
+      position: absolute;
+      left: 67px;
+      top: 150px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .EarsColor2 {
+      width: 15px;
+      height: 50px;
+      position: absolute;
+      left: 198px;
+      top: 150px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .EyesColor {
+      background-image: url("../assets/imgs/Man/Torso/EyesColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EyesColorRed.png');
+      z-index: 1201;
+  }
+  
+  .EyesColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/EyesColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EyesColorBlue.png');
+  }
+  
+  .EyesRightColor {
+      background-image: url("../assets/imgs/Man/Torso/EyesRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EyesRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .EyesRightColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/EyesRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EyesRightColorBlue.png');
+  }
+  
+  .EyesLeftColor {
+      background-image: url("../assets/imgs/Man/Torso/EyesLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EyesLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .EyesLeftColorBlue {
+      background-image: url("../assets/imgs/Man/Torso/EyesLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/Torso/EyesLeftColorBlue.png');
+  }
+  
+  .EyesColor1 {
+      width: 35px;
+      height: 20px;
+      position: absolute;
+      left: 92px;
+      top: 152px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .EyesColor2 {
+      width: 35px;
+      height: 20px;
+      position: absolute;
+      left: 150px;
+      top: 152px !important;
+      cursor: pointer;
+      z-index: 1305;
+  }
+  
+  .Torso, .FaceColor, .SkullColor, .ForeheadColor, .JawColor, .LipsColor, .NoseColor, .TongueColor, .CheeksRightColor, .CheeksLeftColor, .EarsRightColor, .EarsLeftColor, .EyesRightColor, .EyesLeftColor {
+      width: $width;
+      height: $height;
+      background-size: $width $height;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+  }
+    /*End css torso*/
+    /*css Hand lefth*/
+    .HandLeft {
+      background-image: url("../assets/imgs/Man/HandLeft/HandLeft.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/HandLeft.png');
+      z-index: 1200;
+  }
+  
+  .BackHandLeftColor {
+      background-image: url("../assets/imgs/Man/HandLeft/BackHandLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/BackHandLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .BackHandLeftColorBlue {
+      background-image: url("../assets/imgs/Man/HandLeft/BackHandLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/BackHandLeftColorBlue.png');
+  }
+  
+  .BackHandLeftColor1 {
+      width: 113px;
+      height: 110px;
+      position: absolute;
+      left: 73px;
+      top: 200px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .ThumbHandLeftColor {
+      background-image: url("../assets/imgs/Man/HandLeft/ThumbHandLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/ThumbHandLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .ThumbHandLeftColorBlue {
+      background-image: url("../assets/imgs/Man/HandLeft/ThumbHandLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/ThumbHandLeftColorBlue.png');
+  }
+  
+  .ThumbHandLeftColor1 {
+      width: 47px;
+      height: 145px;
+      position: absolute;
+      left: 190px;
+      top: 140px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .IndexHandLeftColor {
+      background-image: url("../assets/imgs/Man/HandLeft/IndexHandLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/IndexHandLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .IndexHandLeftColorBlue {
+      background-image: url("../assets/imgs/Man/HandLeft/IndexHandLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/IndexHandLeftColorBlue.png');
+  }
+  
+  .IndexHandLeftColor1 {
+      width: 28px;
+      height: 123px;
+      position: absolute;
+      left: 147px;
+      top: 53px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .MiddleHandLeftColor {
+      background-image: url("../assets/imgs/Man/HandLeft/MiddleHandLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/MiddleHandLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .MiddleHandLeftColorBlue {
+      background-image: url("../assets/imgs/Man/HandLeft/MiddleHandLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/MiddleHandLeftColorBlue.png');
+  }
+  
+  .MiddleHandLeftColor1 {
+      width: 25px;
+      height: 125px;
+      position: absolute;
+      left: 115px;
+      top: 50px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .AnnularHandLeftColor {
+      background-image: url("../assets/imgs/Man/HandLeft/AnnularHandLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/AnnularHandLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .AnnularHandLeftColorBlue {
+      background-image: url("../assets/imgs/Man/HandLeft/AnnularHandLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/AnnularHandLeftColorBlue.png');
+  }
+  
+  .AnnularHandLeftColor1 {
+      width: 25px;
+      height: 100px;
+      position: absolute;
+      left: 85px;
+      top: 75px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .LittleHandLeftColor {
+      background-image: url("../assets/imgs/Man/HandLeft/LittleHandLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/LittleHandLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .LittleHandLeftColorBlue {
+      background-image: url("../assets/imgs/Man/HandLeft/LittleHandLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandLeft/LittleHandLeftColorBlue.png');
+  }
+  
+  .LittleHandLeftColor1 {
+      width: 27px;
+      height: 90px;
+      position: absolute;
+      left: 58px;
+      top: 110px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .HandLeft, .BackHandLeftColor, .ThumbHandLeftColor, .IndexHandLeftColor, .MiddleHandLeftColor,.AnnularHandLeftColor, .LittleHandLeftColor {
+      width: $width;
+      height: $height;
+      background-size: $width $height;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+  }
+    /*End Hand left*/
+    /*css Hand right*/
+    .HandRight {
+      background-image: url("../assets/imgs/Man/HandRight/HandRight.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/HandRight.png');
+      z-index: 1200;
+  }
+  
+  .BackHandRightColor {
+      background-image: url("../assets/imgs/Man/HandRight/BackHandRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/BackHandRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .BackHandRightColorBlue {
+      background-image: url("../assets/imgs/Man/HandRight/BackHandRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/BackHandRightColorBlue.png');
+  }
+  
+  .BackHandRightColor1 {
+      width: 113px;
+      height: 110px;
+      position: absolute;
+      left: 105px;
+      top: 200px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .ThumbHandRightColor {
+      background-image: url("../assets/imgs/Man/HandRight/ThumbHandRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/ThumbHandRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .ThumbHandRightColorBlue {
+      background-image: url("../assets/imgs/Man/HandRight/ThumbHandRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/ThumbHandRightColorBlue.png');
+  }
+  
+  .ThumbHandRightColor1 {
+      width: 47px;
+      height: 145px;
+      position: absolute;
+      left: 58px;
+      top: 140px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .IndexHandRightColor {
+      background-image: url("../assets/imgs/Man/HandRight/IndexHandRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/IndexHandRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .IndexHandRightColorBlue {
+      background-image: url("../assets/imgs/Man/HandRight/IndexHandRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/IndexHandRightColorBlue.png');
+  }
+  
+  .IndexHandRightColor1 {
+      width: 28px;
+      height: 123px;
+      position: absolute;
+      left: 110px;
+      top: 60px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .MiddleHandRightColor {
+      background-image: url("../assets/imgs/Man/HandRight/MiddleHandRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/MiddleHandRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .MiddleHandRightColorBlue {
+      background-image: url("../assets/imgs/Man/HandRight/MiddleHandRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/MiddleHandRightColorBlue.png');
+  }
+  
+  .MiddleHandRightColor1 {
+      width: 25px;
+      height: 125px;
+      position: absolute;
+      left: 145px;
+      top: 55px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .AnnularHandRightColor {
+      background-image: url("../assets/imgs/Man/HandRight/AnnularHandRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/AnnularHandRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .AnnularHandRightColorBlue {
+      background-image: url("../assets/imgs/Man/HandRight/AnnularHandRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/AnnularHandRightColorBlue.png');
+  }
+  
+  .AnnularHandRightColor1 {
+      width: 25px;
+      height: 100px;
+      position: absolute;
+      left: 175px;
+      top: 85px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .LittleHandRightColor {
+      background-image: url("../assets/imgs/Man/HandRight/LittleHandRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/LittleHandRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .LittleHandRightBlue {
+      background-image: url("../assets/imgs/Man/HandRight/LittleHandRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/HandRight/LittleHandRightColorBlue.png');
+  }
+  
+  .LittleHandRightColor1 {
+      width: 30px;
+      height: 85px;
+      position: absolute;
+      left: 205px;
+      top: 115px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .HandRight, .BackHandRightColor, .ThumbHandRightColor, .IndexHandRightColor, .MiddleHandRightColor,.AnnularHandRightColor, .LittleHandRightColor {
+      width: $width;
+      height: $height;
+      background-size: $width $height;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+  }
+    /*Ens Hand right*/
+    /*css foot left*/
+    .counter {
+      width: $width;
+      height: $height;
+      position: relative;
+    // display: inline-table;
+  }
+  
+  .FootLeft {
+      background-image: url("../assets/imgs/Man/FootLeft/FootLeft.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FootLeft.png');
+      z-index: 1200;
+  }
+  
+  .BackFootLeftColor {
+      background-image: url("../assets/imgs/Man/FootLeft/BackFootLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/BackFootLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .BackFootLeftColorBlue {
+      background-image: url("../assets/imgs/Man/FootLeft/BackFootLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/BackFootLeftColorBlue.png');
+  }
+  
+  .BackFootLeftColor1 {
+      width: 120px;
+      height: 130px;
+      position: absolute;
+      left: 86px;
+      top: 130px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FattoeFootLeftColor {
+      background-image: url("../assets/imgs/Man/FootLeft/FattoeFootLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FattoeFootLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FattoeFootLeftColorBlue {
+      background-image: url("../assets/imgs/Man/FootLeft/FattoeFootLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FattoeFootLeftColorBlue.png');
+  }
+  
+  .FattoeFootLeftColor1 {
+      width: 37px;
+      height: 55px;
+      position: absolute;
+      left: 90px;
+      top: 280px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FirsttoeFootLeftColor {
+      background-image: url("../assets/imgs/Man/FootLeft/FirsttoeFootLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FirsttoeFootLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FirsttoeFootLeftColorBlue {
+      background-image: url("../assets/imgs/Man/FootLeft/FirsttoeFootLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FirsttoeFootLeftColorBlue.png');
+  }
+  
+  .FirsttoeFootLeftColor1 {
+      width: 20px;
+      height: 63px;
+      position: absolute;
+      left: 128px;
+      top: 270px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .SecondtoeFootLeftColor {
+      background-image: url("../assets/imgs/Man/FootLeft/SecondtoeFootLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/SecondtoeFootLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .SecondtoeFootLeftColorBlue {
+      background-image: url("../assets/imgs/Man/FootLeft/SecondtoeFootLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/SecondtoeFootLeftColorBlue.png');
+  }
+  
+  .SecondtoeFootLeftColor1 {
+      width: 20px;
+      height: 57px;
+      position: absolute;
+      left: 148px;
+      top: 270px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .ThirdtoeFootLeftColor {
+      background-image: url("../assets/imgs/Man/FootLeft/ThirdtoeFootLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/ThirdtoeFootLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .ThirdtoeFootLeftColorBlue {
+      background-image: url("../assets/imgs/Man/FootLeft/ThirdtoeFootLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/ThirdtoeFootLeftColorBlue.png');
+  }
+  
+  .ThirdtoeFootLeftColor1 {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 167px;
+      top: 267px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FourthtoeFootLeftColor {
+      background-image: url("../assets/imgs/Man/FootLeft/FourthtoeFootLeftColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FourthtoeFootLeftColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FourthtoeFootLeftColorBlue {
+      background-image: url("../assets/imgs/Man/FootLeft/FourthtoeFootLeftColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootLeft/FourthtoeFootLeftColorBlue.png');
+  }
+  
+  .FourthtoeFootLeftColor1 {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 186px;
+      top: 255px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FootLeft, .BackFootLeftColor, .FattoeFootLeftColor, .FirsttoeFootLeftColor, .SecondtoeFootLeftColor,.ThirdtoeFootLeftColor, .FourthtoeFootLeftColor {
+      width: $width;
+      height: $height;
+      background-size: $width $height;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+  }
+    /*end foot left*/
+    /*css foot right*/
+    .FootRight {
+      background-image: url("../assets/imgs/Man/FootRight/FootRight.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FootRight.png');
+      z-index: 1200;
+  }
+  
+  .BackFootRightColor {
+      background-image: url("../assets/imgs/Man/FootRight/BackFootRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/BackFootRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .BackFootRightColorBlue {
+      background-image: url("../assets/imgs/Man/FootRight/BackFootRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/BackFootRightColorBlue.png');
+  }
+  
+  .BackFootRightColor1 {
+      width: 120px;
+      height: 130px;
+      position: absolute;
+      left: 84px;
+      top: 130px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FattoeFootRightColor {
+      background-image: url("../assets/imgs/Man/FootRight/FattoeFootRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FattoeFootRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FattoeFootRightColorBlue {
+      background-image: url("../assets/imgs/Man/FootRight/FattoeFootRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FattoeFootRightColorBlue.png');
+  }
+  
+  .FattoeFootRightColor1 {
+      width: 37px;
+      height: 68px;
+      position: absolute;
+      left: 164px;
+      top: 285px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FirsttoeFootRightColor {
+      background-image: url("../assets/imgs/Man/FootRight/FirsttoeFootRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FirsttoeFootRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FirsttoeFootRightColorBlue {
+      background-image: url("../assets/imgs/Man/FootRight/FirsttoeFootRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FirsttoeFootRightColorBlue.png');
+  }
+  
+  .FirsttoeFootRightColor1 {
+      width: 21px;
+      height: 65px;
+      position: absolute;
+      left: 143px;
+      top: 285px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .SecondtoeFootRightColor {
+      background-image: url("../assets/imgs/Man/FootRight/SecondtoeFootRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/SecondtoeFootRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .SecondtoeFootRightColorBlue {
+      background-image: url("../assets/imgs/Man/FootRight/SecondtoeFootRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/SecondtoeFootRightColorBlue.png');
+  }
+  
+  .SecondtoeFootRightColor1 {
+      width: 20px;
+      height: 58px;
+      position: absolute;
+      left: 124px;
+      top: 285px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .ThirdtoeFootRightColor {
+      background-image: url("../assets/imgs/Man/FootRight/ThirdtoeFootRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/ThirdtoeFootRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .ThirdtoeFootRightColorBlue {
+      background-image: url("../assets/imgs/Man/FootRight/ThirdtoeFootRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/ThirdtoeFootRightColorBlue.png');
+  }
+  
+  .ThirdtoeFootRightColor1 {
+      width: 18px;
+      height: 48px;
+      position: absolute;
+      left: 106px;
+      top: 285px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FourthtoeFootRightColor {
+      background-image: url("../assets/imgs/Man/FootRight/FourthtoeFootRightColorRed.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FourthtoeFootRightColorRed.png');
+      z-index: 1201;
+  }
+  
+  .FourthtoeFootRightColorBlue {
+      background-image: url("../assets/imgs/Man/FootRight/FourthtoeFootRightColorBlue.png") !important;
+      filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/imgs/Man/FootRight/FourthtoeFootRightColorBlue.png');
+  }
+  
+  .FourthtoeFootRightColor1 {
+      width: 20px;
+      height: 45px;
+      position: absolute;
+      left: 86px;
+      top: 275px !important;
+      cursor: pointer;
+      z-index: 1300;
+  }
+  
+  .FootRight, .BackFootRightColor, .FattoeFootRightColor, .FirsttoeFootRightColor, .SecondtoeFootRightColor,.ThirdtoeFootRightColor, .FourthtoeFootRightColor {
+      width: $width;
+      height: $height;
+      background-size: $width $height;
+      background-image: none;
+      filter: none !important;
+      position: absolute;
+      left: 0%;
+      top: 0% !important;
+      max-width: $width !important;
+  }
+    /*end foot right*/
+    .noImage {
+      background-image: none !important;
+    }
+    .hiddenImage {
+      display: none !important;
+    }
+  
+    #boton{
+      height: 3.6rem;
+      font-size: 1.4rem;
+      padding: 0 1.1em
+    }
+}
